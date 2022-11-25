@@ -30,7 +30,10 @@ function App() {
 
   useEffect(() => {
     if (url !== "") {
-      window.location.href = url;
+      window.open(url, "_blank").focus();
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 500);
     }
   }, [url]);
 
@@ -59,7 +62,7 @@ function App() {
       <header className="  p-3 d-flex justify-content-center text-center   align-items-center">
         <span>Created by Hasan Koman</span>
       </header>
-      <main className=" d-flex flex-column justify-content-center align-items-center position-relative ">
+      <main className=" d-flex flex-column justify-content-center align-items-center  ">
         <form
           onSubmit={handleSubmit}
           className="d-flex flex-column p-4 justify-content-evenly"
