@@ -34,6 +34,7 @@ function App() {
       setTimeout(() => {
         setIsLoading(false);
       }, 500);
+      setUsername("");
     }
   }, [url]);
 
