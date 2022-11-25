@@ -20,6 +20,7 @@ code {
   /* background-color: #345b63; */
   overflow: hidden;
   position: relative;
+  height: 100vh;
 }
 main {
   height: 100vh;
