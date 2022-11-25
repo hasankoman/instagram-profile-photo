@@ -18,13 +18,13 @@ code {
 }
 #root {
   /* background-color: #345b63; */
+}
+main {
+  height: 100vh;
   background-image: url(https://images.unsplash.com/photo-1518112166137-85f9979a43aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-main {
-  height: 100vh;
 }
 header {
   border-top-left-radius: 18px;
