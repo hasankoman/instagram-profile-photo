@@ -87,7 +87,7 @@ function App() {
             />
           </div>
           <span className={`  error-text `}> {error} </span>
-          <button type="submit" className="form-button  " disabled={isLoading}>
+          <button type="submit" className="btn btn-secondary  " disabled={isLoading}>
             {isLoading ? (
               <div class="spinner-border text-dark mt-1 " role="status">
                 <span class="visually-hidden">Loading...</span>

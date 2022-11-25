@@ -18,6 +18,8 @@ code {
 }
 #root {
   /* background-color: #345b63; */
+  overflow: hidden;
+  position: relative;
 }
 main {
   height: 100vh;
@@ -41,9 +43,9 @@ header {
   bottom: 0;
   transform: translateX(-50%);
   width: 90%;
-  -webkit-box-shadow: 0px -22px 72px -19px rgba(247, 205, 172, 0.349);
-  -moz-box-shadow: 0px -22px 72px -19px rgba(247, 205, 172, 0.349);
-  box-shadow: 0px -22px 72px -19px rgba(247, 205, 172, 0.349);
+  -webkit-box-shadow: 0px 10px 72px 5px rgba(247, 205, 172, 0.349);
+  -moz-box-shadow: 0px 10px 72px 5px rgba(247, 205, 172, 0.349);
+  box-shadow: 0px 10px 72px 5px rgba(247, 205, 172, 0.349);
 }
 header span {
   transform: translateX(8px);
