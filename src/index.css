@@ -31,9 +31,9 @@ main {
   overflow: hidden;
 }
 header {
-  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
   font-family: "Righteous", cursive;
-  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
   font-size: 23px;
   background-color: #3a3845;
   color: #f7ccac;
@@ -41,7 +41,7 @@ header {
   user-select: none;
   position: absolute;
   left: 50%;
-  bottom: 0;
+  top: 0;
   transform: translateX(-50%);
   width: 90%;
   -webkit-box-shadow: 0px 10px 72px 5px rgba(247, 205, 172, 0.349);
