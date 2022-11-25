@@ -34,7 +34,7 @@ header {
   border-bottom-left-radius: 18px;
   font-family: "Righteous", cursive;
   border-bottom-right-radius: 18px;
-  font-size: 23px;
+  font-size: 20px;
   background-color: #3a3845;
   color: #f7ccac;
   letter-spacing: 1rem;
@@ -44,9 +44,9 @@ header {
   top: 0;
   transform: translateX(-50%);
   width: 90%;
-  -webkit-box-shadow: 0px 10px 72px 5px rgba(247, 205, 172, 0.349);
-  -moz-box-shadow: 0px 10px 72px 5px rgba(247, 205, 172, 0.349);
-  box-shadow: 0px 10px 72px 5px rgba(247, 205, 172, 0.349);
+  -webkit-box-shadow: 0px 3px 36px 5px rgba(247, 205, 172, 0.349);
+  -moz-box-shadow: 0px 3px 36px 5px rgba(247, 205, 172, 0.349);
+  box-shadow: 0px 3px 36px 5px rgba(247, 205, 172, 0.349);
 }
 header span {
   transform: translateX(8px);
@@ -64,7 +64,6 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 150px;
 }
 .form-body {
   width: 90% !important;
