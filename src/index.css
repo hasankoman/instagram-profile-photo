@@ -1,13 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Righteous", cursive;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Righteous", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+#root {
+  /* background-color: #345b63; */
+  background-image: url(https://images.unsplash.com/photo-1518112166137-85f9979a43aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  height: 100vh;
+}
+header {
+  border-top-left-radius: 18px;
+  font-family: "Righteous", cursive;
+  border-top-right-radius: 18px;
+  font-size: 23px;
+  background-color: #3a3845;
+  color: #f7ccac;
+  letter-spacing: 1rem;
+  user-select: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 90%;
+  -webkit-box-shadow: 0px -22px 72px -19px rgba(247, 205, 172, 0.349);
+  -moz-box-shadow: 0px -22px 72px -19px rgba(247, 205, 172, 0.349);
+  box-shadow: 0px -22px 72px -19px rgba(247, 205, 172, 0.349);
+}
+header span {
+  transform: translateX(8px);
+}
+form {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.199);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.37);
+  width: 90%;
+  height: 300px;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.form-body {
+  width: 90% !important;
+}
+.form-header {
+  color: white;
+  user-select: none;
+}
+.form-control:focus {
+  /* border: 2px solid black; */
+  box-shadow: none !important;
+  border-color: #f0f0f0 !important;
+}
+.input-group-text {
+  background-color: #f0f0f0 !important;
+}
+.form-button {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #ced4da;
+}
+.form-button:hover:enabled {
+  opacity: 0.85;
+}
+.form-button:active:enabled {
+  opacity: 0.7;
+}
+.form-button:disabled {
+  user-select: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.623);
+}
+.error-text {
+  color: #461111;
 }
